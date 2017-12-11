@@ -1,0 +1,6 @@
+framework module ViewFrame {
+  umbrella header "ViewFrame-umbrella.h"
+
+  export *
+  module * { export * }
+}
