@@ -11,5 +11,6 @@ target 'Notes' do
   	pod 'TPKeyboardAvoiding'
   	pod 'ViewFrame'
     pod 'SDWebImage'
+    pod 'MJExtension'
 
 end

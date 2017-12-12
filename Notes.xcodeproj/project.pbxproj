@@ -46,6 +46,18 @@
 		5E2C49B11FDEE93400F23D0A /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C49AF1FDEE93400F23D0A /* MainController.m */; };
 		5E2C49B21FDEE93400F23D0A /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C49B01FDEE93400F23D0A /* MainController.xib */; };
 		698E8758584B1ABC6FDAE951 /* Pods_Notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1267CD097772A7D0C62ABF23 /* Pods_Notes.framework */; };
+		84884AD61FDF75E7005CA9F9 /* MainHeadCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84884AD51FDF75E7005CA9F9 /* MainHeadCellView.m */; };
+		84884AD81FDF75F5005CA9F9 /* MainHeadCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84884AD71FDF75F5005CA9F9 /* MainHeadCellView.xib */; };
+		84884ADC1FDF786E005CA9F9 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84884ADB1FDF786E005CA9F9 /* MainModel.m */; };
+		84884ADF1FDF7C9A005CA9F9 /* NTAddNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84884ADE1FDF7C9A005CA9F9 /* NTAddNoteController.m */; };
+		84884AE21FDF9B17005CA9F9 /* NTAddViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84884AE11FDF9B17005CA9F9 /* NTAddViewModel.m */; };
+		84884AE61FDF9CAD005CA9F9 /* NTAddNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84884AE41FDF9CAD005CA9F9 /* NTAddNoteCell.m */; };
+		84884AE71FDF9CAD005CA9F9 /* NTAddNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84884AE51FDF9CAD005CA9F9 /* NTAddNoteCell.xib */; };
+		84884AEA1FDFA13E005CA9F9 /* projects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84884AE91FDFA13E005CA9F9 /* projects.plist */; };
+		84884AEC1FDFA150005CA9F9 /* parts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84884AEB1FDFA150005CA9F9 /* parts.plist */; };
+		84884AEF1FDFA209005CA9F9 /* PropertyIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 84884AEE1FDFA209005CA9F9 /* PropertyIO.m */; };
+		84884AF21FDFA7D3005CA9F9 /* NTSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84884AF11FDFA7D3005CA9F9 /* NTSettingsController.m */; };
+		84884AF61FDFB918005CA9F9 /* shanghai.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 84884AF51FDFB918005CA9F9 /* shanghai.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +134,25 @@
 		5E2C49AE1FDEE93400F23D0A /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		5E2C49AF1FDEE93400F23D0A /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		5E2C49B01FDEE93400F23D0A /* MainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		84884AD41FDF75E7005CA9F9 /* MainHeadCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHeadCellView.h; sourceTree = "<group>"; };
+		84884AD51FDF75E7005CA9F9 /* MainHeadCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainHeadCellView.m; sourceTree = "<group>"; };
+		84884AD71FDF75F5005CA9F9 /* MainHeadCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainHeadCellView.xib; sourceTree = "<group>"; };
+		84884ADA1FDF786E005CA9F9 /* MainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		84884ADB1FDF786E005CA9F9 /* MainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		84884ADD1FDF7C9A005CA9F9 /* NTAddNoteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAddNoteController.h; sourceTree = "<group>"; };
+		84884ADE1FDF7C9A005CA9F9 /* NTAddNoteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAddNoteController.m; sourceTree = "<group>"; };
+		84884AE01FDF9B17005CA9F9 /* NTAddViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAddViewModel.h; sourceTree = "<group>"; };
+		84884AE11FDF9B17005CA9F9 /* NTAddViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAddViewModel.m; sourceTree = "<group>"; };
+		84884AE31FDF9CAD005CA9F9 /* NTAddNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAddNoteCell.h; sourceTree = "<group>"; };
+		84884AE41FDF9CAD005CA9F9 /* NTAddNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAddNoteCell.m; sourceTree = "<group>"; };
+		84884AE51FDF9CAD005CA9F9 /* NTAddNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NTAddNoteCell.xib; sourceTree = "<group>"; };
+		84884AE91FDFA13E005CA9F9 /* projects.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = projects.plist; sourceTree = "<group>"; };
+		84884AEB1FDFA150005CA9F9 /* parts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = parts.plist; sourceTree = "<group>"; };
+		84884AED1FDFA209005CA9F9 /* PropertyIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyIO.h; sourceTree = "<group>"; };
+		84884AEE1FDFA209005CA9F9 /* PropertyIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyIO.m; sourceTree = "<group>"; };
+		84884AF01FDFA7D3005CA9F9 /* NTSettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTSettingsController.h; sourceTree = "<group>"; };
+		84884AF11FDFA7D3005CA9F9 /* NTSettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTSettingsController.m; sourceTree = "<group>"; };
+		84884AF51FDFB918005CA9F9 /* shanghai.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shanghai.JPG; sourceTree = "<group>"; };
 		DC96B9B7D4F0E97B317F1CF9 /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
 		E484D2401D5B090F343A8594 /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +199,7 @@
 				5E2C492F1FDECA7800F23D0A /* Main.storyboard */,
 				5E2C49321FDECA7800F23D0A /* Assets.xcassets */,
 				5E2C49341FDECA7800F23D0A /* LaunchScreen.storyboard */,
+				84884AF51FDFB918005CA9F9 /* shanghai.JPG */,
 				5E2C49371FDECA7800F23D0A /* Info.plist */,
 				5E2C49381FDECA7800F23D0A /* main.m */,
 			);
@@ -177,19 +209,13 @@
 		5E2C493F1FDECACA00F23D0A /* main */ = {
 			isa = PBXGroup;
 			children = (
+				84884AE81FDFA11D005CA9F9 /* configs */,
+				84884AD91FDF785B005CA9F9 /* models */,
 				5E2C49821FDECB1E00F23D0A /* cells */,
 				5E2C49811FDECB1E00F23D0A /* controller */,
 				5E2C49411FDECB1E00F23D0A /* framework */,
-				5E2C49401FDECB1E00F23D0A /* models */,
 			);
 			path = main;
-			sourceTree = "<group>";
-		};
-		5E2C49401FDECB1E00F23D0A /* models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = models;
 			sourceTree = "<group>";
 		};
 		5E2C49411FDECB1E00F23D0A /* framework */ = {
@@ -230,12 +256,12 @@
 		5E2C49481FDECB1E00F23D0A /* PickerView */ = {
 			isa = PBXGroup;
 			children = (
+				5E2C494C1FDECB1E00F23D0A /* GPDatePicker.h */,
 				5E2C49491FDECB1E00F23D0A /* GPDatePicker.m */,
 				5E2C494A1FDECB1E00F23D0A /* GPDatePicker.xib */,
 				5E2C494B1FDECB1E00F23D0A /* GPPickerView.h */,
-				5E2C494C1FDECB1E00F23D0A /* GPDatePicker.h */,
-				5E2C494D1FDECB1E00F23D0A /* GPPickerView.xib */,
 				5E2C494E1FDECB1E00F23D0A /* GPPickerView.m */,
+				5E2C494D1FDECB1E00F23D0A /* GPPickerView.xib */,
 			);
 			path = PickerView;
 			sourceTree = "<group>";
@@ -323,6 +349,10 @@
 				5E2C49AE1FDEE93400F23D0A /* MainController.h */,
 				5E2C49AF1FDEE93400F23D0A /* MainController.m */,
 				5E2C49B01FDEE93400F23D0A /* MainController.xib */,
+				84884ADD1FDF7C9A005CA9F9 /* NTAddNoteController.h */,
+				84884ADE1FDF7C9A005CA9F9 /* NTAddNoteController.m */,
+				84884AF01FDFA7D3005CA9F9 /* NTSettingsController.h */,
+				84884AF11FDFA7D3005CA9F9 /* NTSettingsController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -335,6 +365,12 @@
 				5E2C49A41FDECDF600F23D0A /* MainCell.h */,
 				5E2C49A51FDECDF600F23D0A /* MainCell.m */,
 				5E2C49A61FDECDF600F23D0A /* MainCell.xib */,
+				84884AD41FDF75E7005CA9F9 /* MainHeadCellView.h */,
+				84884AD51FDF75E7005CA9F9 /* MainHeadCellView.m */,
+				84884AD71FDF75F5005CA9F9 /* MainHeadCellView.xib */,
+				84884AE31FDF9CAD005CA9F9 /* NTAddNoteCell.h */,
+				84884AE41FDF9CAD005CA9F9 /* NTAddNoteCell.m */,
+				84884AE51FDF9CAD005CA9F9 /* NTAddNoteCell.xib */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -345,6 +381,28 @@
 				1267CD097772A7D0C62ABF23 /* Pods_Notes.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84884AD91FDF785B005CA9F9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				84884ADA1FDF786E005CA9F9 /* MainModel.h */,
+				84884ADB1FDF786E005CA9F9 /* MainModel.m */,
+				84884AE01FDF9B17005CA9F9 /* NTAddViewModel.h */,
+				84884AE11FDF9B17005CA9F9 /* NTAddViewModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		84884AE81FDFA11D005CA9F9 /* configs */ = {
+			isa = PBXGroup;
+			children = (
+				84884AE91FDFA13E005CA9F9 /* projects.plist */,
+				84884AEB1FDFA150005CA9F9 /* parts.plist */,
+				84884AED1FDFA209005CA9F9 /* PropertyIO.h */,
+				84884AEE1FDFA209005CA9F9 /* PropertyIO.m */,
+			);
+			path = configs;
 			sourceTree = "<group>";
 		};
 		D887EF450F24C5DAFF35D330 /* Pods */ = {
@@ -418,11 +476,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2C49861FDECB1E00F23D0A /* GPDatePicker.xib in Resources */,
+				84884AD81FDF75F5005CA9F9 /* MainHeadCellView.xib in Resources */,
+				84884AF61FDFB918005CA9F9 /* shanghai.JPG in Resources */,
 				5E2C49871FDECB1E00F23D0A /* GPPickerView.xib in Resources */,
 				5E2C49361FDECA7800F23D0A /* LaunchScreen.storyboard in Resources */,
 				5E2C49331FDECA7800F23D0A /* Assets.xcassets in Resources */,
 				5E2C49B21FDEE93400F23D0A /* MainController.xib in Resources */,
+				84884AEA1FDFA13E005CA9F9 /* projects.plist in Resources */,
+				84884AEC1FDFA150005CA9F9 /* parts.plist in Resources */,
 				5E2C498A1FDECB1E00F23D0A /* MineResources.bundle in Resources */,
+				84884AE71FDF9CAD005CA9F9 /* NTAddNoteCell.xib in Resources */,
 				5E2C49A81FDECDF600F23D0A /* MainCell.xib in Resources */,
 				5E2C49311FDECA7800F23D0A /* Main.storyboard in Resources */,
 			);
@@ -472,6 +535,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Notes/Pods-Notes-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
@@ -480,6 +544,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
@@ -500,6 +565,7 @@
 				5E2C49AB1FDEE78A00F23D0A /* UIView+Extension.m in Sources */,
 				5E2C492E1FDECA7800F23D0A /* ViewController.m in Sources */,
 				5E2C49941FDECB1E00F23D0A /* NSNumber+Extension.m in Sources */,
+				84884AE61FDF9CAD005CA9F9 /* NTAddNoteCell.m in Sources */,
 				5E2C499C1FDECB1E00F23D0A /* UIAlertController+Extension.m in Sources */,
 				5E2C49A31FDECDD600F23D0A /* BaseCell.m in Sources */,
 				5E2C499B1FDECB1E00F23D0A /* UIColor+Extension.m in Sources */,
@@ -512,18 +578,24 @@
 				5E2C49921FDECB1E00F23D0A /* DialogView+Extension.m in Sources */,
 				5E2C498E1FDECB1E00F23D0A /* BaseMeNavigationController.m in Sources */,
 				5E2C49951FDECB1E00F23D0A /* UIImage+Extension.m in Sources */,
+				84884AF21FDFA7D3005CA9F9 /* NTSettingsController.m in Sources */,
 				5E2C49911FDECB1E00F23D0A /* Http.m in Sources */,
 				5E2C49831FDECB1E00F23D0A /* GVUserDefaults+Extension.m in Sources */,
+				84884AD61FDF75E7005CA9F9 /* MainHeadCellView.m in Sources */,
 				5E2C49881FDECB1E00F23D0A /* GPPickerView.m in Sources */,
 				5E2C49971FDECB1E00F23D0A /* UIView+Color.m in Sources */,
+				84884AE21FDF9B17005CA9F9 /* NTAddViewModel.m in Sources */,
 				5E2C49851FDECB1E00F23D0A /* GPDatePicker.m in Sources */,
+				84884ADF1FDF7C9A005CA9F9 /* NTAddNoteController.m in Sources */,
 				5E2C49841FDECB1E00F23D0A /* GVUserDefaults.m in Sources */,
 				5E2C49901FDECB1E00F23D0A /* RequestTest.m in Sources */,
 				5E2C49391FDECA7800F23D0A /* main.m in Sources */,
+				84884AEF1FDFA209005CA9F9 /* PropertyIO.m in Sources */,
 				5E2C49961FDECB1E00F23D0A /* UITableView+Extension.m in Sources */,
 				5E2C492B1FDECA7800F23D0A /* AppDelegate.m in Sources */,
 				5E2C49981FDECB1E00F23D0A /* UIImageView+Extension.m in Sources */,
 				5E2C499A1FDECB1E00F23D0A /* NSDate+Extension.m in Sources */,
+				84884ADC1FDF786E005CA9F9 /* MainModel.m in Sources */,
 				5E2C498F1FDECB1E00F23D0A /* ContactCustomerService.m in Sources */,
 				5E2C49931FDECB1E00F23D0A /* UIImage+Path.m in Sources */,
 			);

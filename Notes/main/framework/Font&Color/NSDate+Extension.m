@@ -10,6 +10,97 @@
 
 @implementation NSDate (Extension)
 
+
+
+//计算时间差 eg: 2小时
++(NSString *)date2Duration:(NSDate *)from to:(NSDate *)to {
+    //两个时间间隔
+    NSTimeInterval timeInterval = fabs([from timeIntervalSinceDate:to]);
+    
+    NSString *txt;
+    
+    long temp = (long)((timeInterval+0.5)/60);
+    NSInteger hour = temp/60;
+    NSInteger min = temp%60;
+    if (hour==0 && min > 0) {
+        txt = [NSString stringWithFormat:@"%ld分钟", min];
+    } else if (hour > 0 && min == 0) {
+        txt = [NSString stringWithFormat:@"%ld小时", hour];
+    } else if (hour > 0 && min > 0) {
+        txt = [NSString stringWithFormat:@"%ld小时%ld分钟", hour, min];
+    } else {
+        txt = @"时间貌似不对啊";
+    }
+    return txt;
+}
+//计算时间间隔 eg:9:00-10:00
++(NSString *)date2Interval:(NSDate *)from to:(NSDate *)to {
+    NSString *begin = [self date2Hour:from];
+    NSString *end = [self date2Hour:to];
+    return [NSString stringWithFormat:@"%@-%@",begin, end];
+}
++(NSString *)date2YearMonthDay:(NSDate *)date {
+    NSDateFormatter *formatter = [self dateFormatter:@"yyyy年MM月dd日"];
+    NSString *str = [formatter stringFromDate:date];
+    return str;
+}
++(NSString *)date2MonthDay:(NSDate *)date {
+    NSDateFormatter *formatter = [self dateFormatter:@"MM月dd日"];
+    NSString *str = [formatter stringFromDate:date];
+    return str;
+}
++(NSString *)date2Day:(NSDate *)date {
+    NSDateFormatter *formatter = [self dateFormatter:@"dd日"];
+    NSString *str = [formatter stringFromDate:date];
+    return str;
+}
+
++(NSString *)date2Hour:(NSDate *)date {
+    NSDateFormatter *formatter = [self dateFormatter:@"HH:mm"];
+    NSString *str = [formatter stringFromDate:date];
+    return str;
+}
+
++(NSString *)date2MonthDayHourMin:(NSDate *)date {
+    NSDateFormatter *formatter = [self dateFormatter:@"MM月dd日 HH:mm"];
+    NSString *str = [formatter stringFromDate:date];
+    return str;
+}
+
+//private
++(NSDateFormatter *)dateFormatter:(NSString *)formatterStr {
+    NSDateFormatter *formatter = [NSDateFormatter new];
+    [formatter setDateFormat:formatterStr];
+    return formatter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 +(instancetype)transformDate:(NSString *)date {
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];

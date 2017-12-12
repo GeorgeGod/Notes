@@ -7,6 +7,7 @@
 //
 
 #import "MainCell.h"
+#import "Extension.h"
 
 @implementation MainCell
 
@@ -19,6 +20,16 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+-(void)configCellWithData:(MainModel *)model {
+    self.shopName.text = model.shopName;
+    self.customerName.text = model.customerName;
+    self.durationTime.text = [NSDate date2Duration:model.beginDate to:model.endDate]; //计算得到的
+    self.projectName.text = model.projectName;
+    self.parts.text = model.parts;
+    self.date.text = [NSDate date2MonthDay:model.beginDate]; //计算得到的
+    self.time.text = [NSDate date2Interval:model.beginDate to:model.endDate]; //计算得到的
 }
 
 @end

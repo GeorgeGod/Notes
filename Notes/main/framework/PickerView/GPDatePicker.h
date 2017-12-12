@@ -39,6 +39,8 @@
 //选择的行号
 @property (nonatomic, copy  ) void(^didSelectedRow)(GPDatePicker *datePicker, NSString *date);
 
+@property (nonatomic, copy  ) void(^didSelectedDate)(GPDatePicker *datePicker, NSDate *date);
+
 /**
  dataArray装的可以是字符串，也可以是富文本字符串
  */

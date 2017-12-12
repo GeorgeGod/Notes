@@ -11,7 +11,8 @@
 
 @interface GPDatePicker()
 {
-    NSString *selectedDate;
+    NSString *selectedDateStr;
+    NSDate *selectedDate;
 }
 
 @end
@@ -54,7 +55,7 @@
 }
 - (IBAction)confirmButtonAction:(UIButton *)sender {
     NSLog(@"确定按钮呗点击");
-    [self selectRow:selectedDate];
+    [self selectRow:selectedDateStr date:selectedDate];
     [self dismiss];
 }
 
@@ -97,18 +98,22 @@
     
     //NSDate格式转换为NSString格式
     NSDate *pickerDate = [self.datePicker date];// 获取用户通过UIDatePicker设置的日期和时间
+    selectedDate = pickerDate;
     NSDateFormatter *pickerFormatter = [[NSDateFormatter alloc] init];// 创建一个日期格式器
     [pickerFormatter setDateFormat:_dateFormat];
     NSString *dateString = [pickerFormatter stringFromDate:pickerDate];
     
     //打印显示日期时间
     NSLog(@"格式化显示时间：%@",dateString);
-    selectedDate = dateString;
+    selectedDateStr = dateString;
 }
 
--(void)selectRow:(NSString *)dateStr {
+-(void)selectRow:(NSString *)dateStr date:(NSDate *)date {
     if (self.didSelectedRow) {
         self.didSelectedRow(self, dateStr);
+    }
+    if (self.didSelectedDate) {
+        self.didSelectedDate(self, date);
     }
     if ([self.delegate respondsToSelector:@selector(datePicker:didSelectedRowAtIndex:)]) {
         [self.delegate datePicker:self didSelectedRowAtIndex:dateStr];
